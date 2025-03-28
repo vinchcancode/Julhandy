@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen max-w-screen-2xl font-primary">
+      <main className="min-h-screen max-w-screen-3xl font-primary">
         <Outlet />
       </main>
       <Footer />

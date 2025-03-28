@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        primary: ["Playfair Display", "serif"],
+        secondary: ["League Spartan", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

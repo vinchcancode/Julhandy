@@ -1,41 +1,52 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import headerLogo from "../assets/Header-logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  return (
-    <header className="max-w-screen-2xl mx-auto py-4">
-      <nav className="flex items-center justify-evenly w-full">
-        {/* Logo Section */}
-        <div>
-          <img className="w-40" src={headerLogo} alt="Company Logo" />
-        </div>
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
-        {/* Navigation Links */}
-        <ul className="flex space-x-10 text-lg font-semibold tracking-wide uppercase">
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY && window.scrollY > 50) {
+        setIsVisible(false); // Hide navbar when scrolling down
+      } else {
+        setIsVisible(true); // Show navbar when scrolling up
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
+  return (
+    <header
+      className={`fixed top-0 w-full bg-white z-50 shadow-md transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
+      <nav className="max-w-screen-2xl mx-auto px-8 flex justify-between items-center">
+        <div>
+          <Link to="/">
+            <img className="w-36" src={headerLogo} alt="Company Logo" />
+          </Link>
+        </div>
+        <ul className="flex space-x-10 text-md tracking-wide uppercase font-primary">
           <li>
-            <a href="#about" className="nav-link">
-              About
-            </a>
+            <Link to="/About">About</Link>
           </li>
           <li>
-            <a href="#flooring" className="nav-link">
-              Flooring
-            </a>
+            <Link to="/Flooring">FLOORING</Link>
           </li>
           <li>
-            <a href="#architectural-products" className="nav-link">
-              Architectural Products
-            </a>
+            <Link to="/Architectural-Products">Architectural Products</Link>
           </li>
           <li>
-            <a href="#resources" className="nav-link">
-              Resources
-            </a>
+            <Link to="/Resources">RESOURCES</Link>
           </li>
           <li>
-            <a href="#contact" className="nav-link">
-              Contact
-            </a>
+            <Link to="/Contact">CONTACT</Link>
           </li>
         </ul>
       </nav>
