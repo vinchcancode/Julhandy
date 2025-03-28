@@ -12,26 +12,17 @@ const Story = () => {
         {/* Text Section */}
         <div className="w-full md:w-1/2">
           <p className="text-xl leading-relaxed font-secondary font-extralight">
-            At Any way flooring Australia, we intentionally source and
-            manufacture premium wide plank hardwood flooring and other hardwood
-            products for the design-oriented individual. Our niche products are
-            made to order based on individual specifications and design styles.
-            With over 20 years of experience, we work with each individual
-            client to determine which product, texture, finish, and platform
-            would best suit their design. This level of product customization
-            and the manufacturing of our products is what sets us apart from
-            generic flooring companies. Hardwood Design Company seeks to salvage
-            and manufacture quality local wood species that would otherwise be
-            burned or destroyed. Specializing in Texas Post Oak, Southern Pecan,
-            Live Sawn Oak and Texas Mesquite we have become known in the
-            industry as the leading manufacturer of these unique hardwood
-            species. Our signature Natural Face Wide Plank flooring in desired
-            among the world's most affluent interior designers, architects, and
-            home owners. The use of such raw materials helps the environment,
-            renews natural resources, and boosts the local economy. We choose to
-            be different and see beauty where others don't. We sought to develop
-            a product unlike any other on the market, and in doing so,
-            discovered a product that was truly sustainable and unique.
+            At Any Way Flooring Australia, we specialize in premium, custom-made
+            wide plank hardwood flooring and other hardwood products for
+            design-focused clients. With over 20 years of experience, we tailor
+            each product's texture, finish, and platform to individual
+            preferences. Unlike generic flooring companies, we salvage and
+            manufacture unique local wood species like Texas Post Oak, Southern
+            Pecan, Live Sawn Oak, and Texas Mesquite. Our signature Natural Face
+            Wide Plank flooring is sought after by top designers, architects,
+            and homeowners. Committed to sustainability, we repurpose raw
+            materials to support the environment and the local economy while
+            creating truly unique flooring solutions.
           </p>
         </div>
 
