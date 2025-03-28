@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../assets/bgImage1.png";
 import img2 from "../assets/bgImage2.png";
 import img3 from "../assets/bgImage3.png";
+import { Link } from "react-router-dom";
 
 const Craft = () => {
   return (
@@ -15,6 +16,9 @@ const Craft = () => {
             We manufacture sustainable hardwood products by salvaging the
             natural resources around us.
           </p>
+          <Link className="mt-28" to="/About">
+            READ MORE
+          </Link>
         </div>
       </div>
 
@@ -27,6 +31,9 @@ const Craft = () => {
             We control the entire process from forest to floor, sourcing all raw
             materials from within the United States.
           </p>
+          <Link className="mt-28" to="/About">
+            READ MORE
+          </Link>
         </div>
       </div>
 
@@ -39,6 +46,9 @@ const Craft = () => {
             We use old-school methods to finish each and every piece by hand,
             creating an unparalleled hardwood product.
           </p>
+          <Link className="mt-28" to="/About">
+            READ MORE
+          </Link>
         </div>
       </div>
     </div>
