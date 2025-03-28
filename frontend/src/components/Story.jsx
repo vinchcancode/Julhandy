@@ -11,7 +11,7 @@ const Story = () => {
       <div className="flex flex-col md:flex-row items-center md:items-start text-left gap-8">
         {/* Text Section */}
         <div className="w-full md:w-1/2">
-          <p className="text-lg leading-relaxed font-secondary font-extralight">
+          <p className="text-xl leading-relaxed font-secondary font-extralight">
             At Any way flooring Australia, we intentionally source and
             manufacture premium wide plank hardwood flooring and other hardwood
             products for the design-oriented individual. Our niche products are
