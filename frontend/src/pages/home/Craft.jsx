@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/bgImage1.png";
-import img2 from "../assets/bgImage2.png";
-import img3 from "../assets/bgImage3.png";
+import img1 from "../../assets/bgImage1.png";
+import img2 from "../../assets/bgImage2.png";
+import img3 from "../../assets/bgImage3.png";
 import { Link } from "react-router-dom";
 
 const Craft = () => {
