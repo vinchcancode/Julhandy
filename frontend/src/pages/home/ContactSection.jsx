@@ -1,6 +1,7 @@
 import React from "react";
 import contactbg from "../../assets/contactbg.png";
 import { useForm } from "react-hook-form";
+import getIntouch from "../../assets/GetInTouch3.png";
 
 const ContactSection = () => {
   const {
@@ -50,13 +51,11 @@ const ContactSection = () => {
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="bg-white/90 max-w-xl w-full p-8 shadow-lg">
           {/* Header */}
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">
-            Get in Touch
-          </h2>
+          <img className="h-auto" src={getIntouch} alt="" />
           <p className="text-center text-gray-600 mb-6">
             Call us at 979-213-6846 or email{" "}
             <a href="mailto:info@halewooddesigns.net" className="text-blue-600">
-              smurf4812@gmail.com
+              anywayflooring@gmail.com
             </a>
           </p>
 

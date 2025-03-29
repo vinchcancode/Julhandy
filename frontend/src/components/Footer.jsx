@@ -4,7 +4,7 @@ import headerLogo from "../assets/Header-logo.png";
 const Footer = () => {
   return (
     <div className="w-full py-8">
-      <div className="max-w-5xl mx-auto flex flex-wrap justify-between items-start px-6">
+      <div className="mx-9 flex flex-wrap justify-between items-start px-6">
         {/* Left Section - Logo & Links */}
         <div className="w-1/2 min-w-[250px]">
           <img src={headerLogo} alt="Logo" className="w-36 mb-4" />
