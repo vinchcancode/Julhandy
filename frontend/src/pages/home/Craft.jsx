@@ -11,8 +11,10 @@ const Craft = () => {
       <div className="relative flex-1">
         <img className="w-full h-full object-cover" src={img1} alt="Image 1" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/40">
-          <h3 className="text-2xl font-bold">THOUGHTFULLY SOURCED</h3>
-          <p className="text-center w-3/4 mt-2">
+          <h3 className="h-20 text-center text-2xl font-bold">
+            THOUGHTFULLY SOURCED
+          </h3>
+          <p className="h-32 text-center w-3/4 mt-2">
             We manufacture sustainable hardwood products by salvaging the
             natural resources around us.
           </p>
@@ -26,8 +28,8 @@ const Craft = () => {
       <div className="relative flex-1">
         <img className="w-full h-full object-cover" src={img2} alt="Image 2" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/40">
-          <h3 className="text-2xl font-bold">LOCALLY MADE</h3>
-          <p className="text-center w-3/4 mt-2">
+          <h3 className="h-20 text-2xl font-bold">LOCALLY MADE</h3>
+          <p className="h-32 text-center w-3/4 mt-2">
             We control the entire process from forest to floor, sourcing all raw
             materials from within the United States.
           </p>
@@ -41,8 +43,10 @@ const Craft = () => {
       <div className="relative flex-1">
         <img className="w-full h-full object-cover" src={img3} alt="Image 3" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white bg-black/40">
-          <h3 className="text-2xl font-bold">AUTHENTICALLY CRAFTED</h3>
-          <p className="text-center w-3/4 mt-2">
+          <h3 className="h-20 text-center text-2xl font-bold">
+            AUTHENTICALLY CRAFTED
+          </h3>
+          <p className="h-32 text-center w-3/4 mt-2">
             We use old-school methods to finish each and every piece by hand,
             creating an unparalleled hardwood product.
           </p>
