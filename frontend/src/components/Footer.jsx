@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section - Contact Details & Map */}
-        <div className="w-full sm:w-1/2 min-w-[320px] flex flex-col gap-4">
+        <div className="w-full sm:w-1/2 min-w-[320px] flex flex-col gap-4 pr-6">
           <div>
             <p className="text-gray-800 font-semibold">
               Phone: <span className="font-normal">03 9562 6038</span>
