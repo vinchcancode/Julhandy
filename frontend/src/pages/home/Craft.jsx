@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Craft = () => {
   return (
-    <div className="w-screen h-[500px] flex overflow-hidden mt-5">
+    <div className="w-screen h-[500px] flex overflow-hidden mt-5 max-sm:flex-col max-sm:overflow-auto">
       {/* Image 1 with Text Overlay */}
       <div className="relative flex-1">
         <img className="w-full h-full object-cover" src={img1} alt="Image 1" />

@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section - Contact Details & Map */}
-        <div className="w-1/2 min-w-[320px] flex flex-col gap-4">
+        <div className="w-full sm:w-1/2 min-w-[320px] flex flex-col gap-4">
           <div>
             <p className="text-gray-800 font-semibold">
               Phone: <span className="font-normal">03 9562 6038</span>
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
           </div>
           <iframe
-            className="w-full h-40 rounded-lg shadow"
+            className="w-full h-40 sm:h-64 rounded-lg shadow"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2561435864816!2d144.9599283156596!3d-37.8136279797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df3a0b0a3%3A0x6d4c60928e2145b9!2sKLD%20Home%20Flooring%20%26%20Kitchen!5e0!3m2!1sen!2sau!4v1614312565610!5m2!1sen!2sau"
             allowFullScreen=""
             loading="lazy"
@@ -47,6 +47,7 @@ const Footer = () => {
           <i className="fab fa-facebook text-2xl"></i>
         </a>
       </div>
+      <hr className="" />
     </div>
   );
 };

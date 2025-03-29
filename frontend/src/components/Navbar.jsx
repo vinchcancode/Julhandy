@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full bg-white z-50 shadow-md transition-transform duration-300 ${
+      className={`fixed top-0 w-screen bg-white z-50 shadow-md transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
