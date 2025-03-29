@@ -19,7 +19,7 @@ const Wood = () => {
         styles and designs. Explore our range today, and make the right choice
         for your next renovation.
       </p>
-      <div className="sm:flex mt-4 gap-4">
+      <div className="sm:flex mx-auto mt-4 gap-4">
         <div className="flex-1">
           <img src={LaminateFlooring} alt="" />
           <p>Laminate Flooring</p>
