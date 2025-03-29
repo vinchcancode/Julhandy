@@ -9,7 +9,7 @@ const Wood = () => {
   return (
     <div className="max-w-7xl flex flex-col justify-center mx-auto py-8">
       <h1 className="text-3xl max-sm:text-center">Flooring</h1>
-      <p className="max-sm:px-2 text-sm">
+      <p className="max-sm:px-2 text-sm text-center">
         Your flooring is such an important part of how your home feels. As a
         fundamental part of your experience with your property, a new floor can
         completely revitalise a space, both in terms of livability and resale
