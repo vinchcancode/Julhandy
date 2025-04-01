@@ -1,5 +1,5 @@
 import React from "react";
-import headerLogo from "../assets/Header-logo.png";
+import Logo from "../assets/JulHandy.png";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="mx-9 flex flex-wrap justify-between items-start px-6">
         {/* Left Section - Logo & Links */}
         <div className="w-1/2 min-w-[250px]">
-          <img src={headerLogo} alt="Logo" className="w-36 mb-4" />
+          <img src={Logo} alt="Logo" className="w-36 mb-4 ml-[-30px]" />
           <ul className="space-y-2 text-gray-700">
             <li className="hover:text-black cursor-pointer">Flooring</li>
             <li className="hover:text-black cursor-pointer">Renovation</li>
