@@ -55,7 +55,7 @@ const ContactSection = () => {
           <p className="text-center text-gray-600 mb-6">
             Call us at 979-213-6846 or email{" "}
             <a href="mailto:info@halewooddesigns.net" className="text-blue-600">
-              anywayflooring@gmail.com
+              Julhandy@gmail.com
             </a>
           </p>
 

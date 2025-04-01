@@ -28,7 +28,8 @@ const Footer = () => {
             <p className="text-gray-800 font-semibold">
               Address:{" "}
               <span className="font-normal">
-                16 Fiveways Boulevard, Keysborough VIC 3173
+                
+38 rose grange blvd tarneit , Melbourne, VIC, Australia, Victoria
               </span>
             </p>
           </div>
